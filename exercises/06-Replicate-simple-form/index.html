@@ -1,22 +1,92 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+			crossorigin="anonymous"
+		/>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>4Geeks Academy</title>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>4Geeks Academy</title>
+		<style>
+			/* your code here */
+			table,
+			th,
+			td {
+				border: 1px solid black;
+			}
+			.Centrar-boton {
+				text-align: center;
+			}
+		</style>
+	</head>
 
-    <style>
-        /* your code here */
-        
-    </style>
-</head>
-
-<body>
-    <form>
-        <!-- your code here -->
-        
-    </form>
-</body>
-
+	<body>
+		<form class="container">
+			<!-- your code here -->
+			<div class="row">
+				<div class="col-4 mx-auto">
+					<table col-12>
+						<tr class="Centrar-boton">
+							<th class="col-6">Name</th>
+							<th class="col-6">Value</th>
+						</tr>
+						<tr>
+							<td><label for="Name">Name</label></td>
+							<td><input type="text" id="Name"" /></td>
+						</tr>
+						<tr>
+							<td><label for="Male">Sex</label></td>
+							<td class="d-flex flex-column">
+								<label for="Male">
+									<input type="radio" id="Male" name="Sex" />
+									Male
+								</label>
+								<label for="Female">
+									<input type="radio" name="Sex" id="Female" />
+									Female
+								</label>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="Eye color">Eye color</label></td>
+							<td>
+								<select name="" id="Eye color">
+									<option value="Green">Green</option>
+									<option value="Red">Red</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="Check all that apply">Check all that apply</label></td>
+							<td>
+								<label for="over 6">
+									<input type="checkbox" id="over 6" />
+									Over 6 feet tall
+								</label>
+								<label for="over 200">
+									<input type="checkbox" id="over 200" />
+									Over 200 pounds
+								</label>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<label for="Athletic ability">Describe your Athletic ability:</label>
+								<textarea name="" id="Athletic ability" rows="4" cols="54"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="Centrar-boton">
+								<button class="btn btn-secondary">Enter my information</button>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</form>
+	</body>
 </html>

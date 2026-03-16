@@ -1,0 +1,42 @@
+body {
+	background: #072657;
+}
+
+.login {
+	width: 350px;
+	margin: 0 auto;
+	margin-top: 250px;
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.login h1 {
+	font-weight: bold;
+	color: white !important;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.login input {
+	background-color: #051a3d;
+	height: 30px;
+	border: 1 solid black;
+	border-radius: 3px;
+	padding: 8px;
+}
+
+.login button {
+	background-color: #4874d7;
+	color: white;
+	height: 35px;
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	border: 0;
+	border-radius: 3px;
+}
